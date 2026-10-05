@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Бистро «Искатели» в Смоленске: завтраки весь день, своя пекарня и сидр на Ленина, 10.">
+  <title>Искатели — завтраки весь день, своя пекарня, сидр</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <header class="pill-header">
+    <div class="pill-bar">
+      <nav class="pill-nav" aria-label="Главное меню слева">
+        <a href="#numbers">Место</a>
+        <a href="#bake">Пекарня</a>
+        <a href="#menu">Меню</a>
+      </nav>
+      <a class="pill-logo" href="#top" aria-label="Искатели — на главную">
+        <img class="pill-logo-img" src="logo.svg" alt="Искатели — бистро">
+      </a>
+      <nav class="pill-nav" aria-label="Главное меню справа">
+        <a href="#team">Команда</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="cover">
+      <div class="cover-card cover-stage">
+        <h1 class="stage-title">Ищите свой<br><span class="stage-oval">любимый вкус!</span></h1>
+        <img class="stage-photo" src="hero-tray.png" alt="Поднос с круассанами, пончиками и капучино" fetchpriority="high">
+        <div class="stage-bottom">
+          <p class="stage-note">Свежая выпечка из собственной печи, сертифицирована любовью к маслу</p>
+          <p class="stage-note stage-note-right">Завтраки весь день для каждого гостя с восьми утра</p>
+        </div>
+        <a class="stage-cta" href="#menu"><span class="stage-cta-label">Искать в меню</span><span class="stage-cta-arrow" aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Завтраки, круассаны, свежий хлеб, сидры, бриошь, пончики">
+      <div class="ticker-track">
+        <div class="ticker-line"><span>Завтраки</span><b>✦</b><span>Круассаны</span><b>✦</b><span>Свежий хлеб</span><b>✦</b><span>Сидры</span><b>✦</b><span>Бриошь</span><b>✦</b><span>Пончики</span><b>✦</b></div>
+        <div class="ticker-line" aria-hidden="true"><span>Завтраки</span><b>✦</b><span>Круассаны</span><b>✦</b><span>Свежий хлеб</span><b>✦</b><span>Сидры</span><b>✦</b><span>Бриошь</span><b>✦</b><span>Пончики</span><b>✦</b></div>
+        <div class="ticker-line" aria-hidden="true"><span>Завтраки</span><b>✦</b><span>Круассаны</span><b>✦</b><span>Свежий хлеб</span><b>✦</b><span>Сидры</span><b>✦</b><span>Бриошь</span><b>✦</b><span>Пончики</span><b>✦</b></div>
+        <div class="ticker-line" aria-hidden="true"><span>Завтраки</span><b>✦</b><span>Круассаны</span><b>✦</b><span>Свежий хлеб</span><b>✦</b><span>Сидры</span><b>✦</b><span>Бриошь</span><b>✦</b><span>Пончики</span><b>✦</b></div>
+      </div>
+    </div>
+
+    <section class="numbers" id="numbers" aria-labelledby="numbers-title">
+      <div class="wrap">
+        <div class="section-head section-head-centered">
+          <p class="eyebrow eyebrow-rust eyebrow-center">Почему к нам возвращаются</p>
+          <h2 id="numbers-title">Место для долгого<br>и <em>вкусного утра</em></h2>
+          <p class="section-note section-note-centered">Три простые причины заглянуть на Ленина, 10 — и остаться дольше, чем планировали.</p>
+        </div>
+        <div class="numbers-row">
+          <article class="number-card">
+            <div class="number-text"><h3>Завтраки весь день</h3><p>с восьми утра и до девяти вечера</p></div>
+            <span class="number-icon" aria-hidden="true"><img src="icon-clock.png" alt=""></span>
+          </article>
+          <article class="number-card">
+            <div class="number-text"><h3>Восемь разделов меню</h3><p>от яичницы до свежей выпечки</p></div>
+            <span class="number-icon" aria-hidden="true"><img src="icon-dish.png" alt=""></span>
+          </article>
+          <article class="number-card">
+            <div class="number-text"><h3>Дом девятнадцатого века</h3><p>со своей пекарней</p></div>
+            <span class="number-icon" aria-hidden="true"><img src="icon-home.png" alt=""></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bake" id="bake" aria-labelledby="bake-title">
+      <div class="wrap bake-card">
+        <div class="bake-left">
+          <p class="eyebrow eyebrow-rust">Пекарня, завтраки, сидр</p>
+          <h2 id="bake-title">Печём сами.<br>Подаём <em>с любовью.</em></h2>
+          <div class="bake-tabs">
+            <a class="bake-tab" href="#menu" data-img="1">
+              <strong>Своя выпечка</strong>
+              <span>Круассаны, пончики, бриошь и хлеб на закваске каждый день</span>
+            </a>
+            <a class="bake-tab" href="#menu" data-img="2">
+              <strong>Завтраки без правил</strong>
+              <span>Яичница, каши, сырники и бенедикт — с утра и до вечера</span>
+            </a>
+            <a class="bake-tab" href="#contacts" data-img="3">
+              <strong>Сидр к вечеру</strong>
+              <span>Сухой и полусладкий, лёгкий и насыщенный — уже охлаждаем</span>
+            </a>
+          </div>
+        </div>
+        <div class="bake-right">
+          <img class="bake-img bake-img-1" src="bake-croissant.jpg" alt="Шоколадный круассан с орехами на белой тарелке" fetchpriority="high">
+          <img class="bake-img bake-img-2" src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=1000&q=80" alt="Завтрак в бистро Искатели" loading="lazy">
+          <img class="bake-img bake-img-3" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80" alt="Хлеб на закваске с хрустящей корочкой" loading="lazy">
+          <div class="bake-note bake-note-1">попробуйте <br>шоколадный круассан</div>
+          <div class="bake-note bake-note-2">завтраки <br>с восьми утра</div>
+          <div class="bake-note bake-note-3">хлеб <br>на закваске</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="day" aria-labelledby="day-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow eyebrow-rust">Как проходит день</p>
+            <h2 id="day-title">Один день<br>в <em>«Искателях»</em></h2>
+          </div>
+          <p class="section-note">Приходите, когда удобно. Сценарий подскажет само место.</p>
+        </div>
+        <div class="day-list">
+          <details class="day-item" open>
+            <summary><span class="day-time">08:00</span><span class="day-name">Первый хлеб</span><span class="day-plus" aria-hidden="true"></span></summary>
+            <p>Круассаны из печи и кофе по дороге</p>
+          </details>
+          <details class="day-item">
+            <summary><span class="day-time">12:00</span><span class="day-name">Долгий завтрак</span><span class="day-plus" aria-hidden="true"></span></summary>
+            <p>Шакшука с фетой или завтрак Искателя</p>
+          </details>
+          <details class="day-item">
+            <summary><span class="day-time">18:00</span><span class="day-name">Сладкая пауза</span><span class="day-plus" aria-hidden="true"></span></summary>
+            <p>Французский тост и сезонные напитки</p>
+          </details>
+          <details class="day-item">
+            <summary><span class="day-time">21:00</span><span class="day-name">Сидр и разговоры</span><span class="day-plus" aria-hidden="true"></span></summary>
+            <p>Дуэт сидра и закусок перед закрытием</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow eyebrow-rust">Что сегодня ищем?</p>
+            <h2 id="menu-title">Первым делом —<br><em>что-нибудь вкусное</em></h2>
+          </div>
+          <div class="heading-aside">
+            <p>Меню меняется по сезону. Это проверенные находки — дальше доверьтесь любопытству.</p>
+            <a class="text-link" href="https://bistro-iskateli.ru/" target="_blank" rel="noreferrer">Полное меню <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="menu-chips" role="tablist" aria-label="Разделы меню">
+          <button class="menu-chip is-active" data-cat="eggs" role="tab">Яичница и ко</button><button class="menu-chip" data-cat="kashi" role="tab">Каши</button><button class="menu-chip" data-cat="salads" role="tab">Закуски и салаты</button><button class="menu-chip" data-cat="sweet" role="tab">Сладкое</button><button class="menu-chip" data-cat="hearty" role="tab">Сытное</button><button class="menu-chip" data-cat="sandwich" role="tab">Сэндвичи</button><button class="menu-chip" data-cat="bread" role="tab">Хлеб и выпечка</button><button class="menu-chip" data-cat="drinks" role="tab">Сезонные напитки</button>
+        </div>
+        <div class="menu-panels">
+          <div class="menu-panel is-active" data-panel="eggs">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1498602753442-dfa7a49fc9c4?auto=format&fit=crop&w=800&q=80" alt="Шакшука в сковороде" loading="lazy"><h3>Шакшука с фетой</h3><p>Перец, баклажан, томаты, яйцо и хлеб тартин</p><span class="mini-price">490 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80" alt="Завтрак из яиц и тостов" loading="lazy"><h3>Бенедикт с лососем</h3><p>Булочка бриошь, лосось слабой соли и голландез</p><span class="mini-price">590 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=80" alt="Тост на тарелке" loading="lazy"><h3>Яичница с халуми</h3><p>Томаты черри, халуми на гриле и хлеб тартин</p><span class="mini-price">390 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="kashi">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80" alt="Панкейки с ягодами" loading="lazy"><h3>Овсяная с ягодами</h3><p>Черника, голубика, мёд и сливочное масло</p><span class="mini-price">320 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1493770348161-369560ae357d?auto=format&fit=crop&w=800&q=80" alt="Завтрак с кашей и фруктами" loading="lazy"><h3>Пшённая с тыквой</h3><p>Печёная тыква, мёд и семечки</p><span class="mini-price">330 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80" alt="Утренняя тарелка" loading="lazy"><h3>Рисовая на кокосовом</h3><p>Кокосовое молоко, манго и чиа</p><span class="mini-price">350 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="salads">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=800&q=80" alt="Овощной салат" loading="lazy"><h3>Страчателла с томатами</h3><p>Томаты, базилик, оливковое масло и тартин</p><span class="mini-price">520 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80" alt="Боул с овощами" loading="lazy"><h3>Салат с халуми</h3><p>Авокадо, зелень, халуми на гриле и цитрус</p><span class="mini-price">480 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="Подача закуски" loading="lazy"><h3>Паштет из печени</h3><p>Куриная печень, карамельный лук и бриошь</p><span class="mini-price">390 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="sweet">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?auto=format&fit=crop&w=800&q=80" alt="Французский тост с ягодами" loading="lazy"><h3>Французский тост</h3><p>Бриошь, черника, голубика и шантильи</p><span class="mini-price">420 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=800&q=80" alt="Шоколадный десерт" loading="lazy"><h3>Сырники</h3><p>Шантильи, ягодный соус и сметана</p><span class="mini-price">380 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80" alt="Пончики с ягодами" loading="lazy"><h3>Пончик с малиной</h3><p>Малина, рикотта и сахарная пудра</p><span class="mini-price">220 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="hearty">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Сытное мясное блюдо" loading="lazy"><h3>Завтрак Искателя</h3><p>Круассан, халуми, бекон, фасоль и томаты</p><span class="mini-price">680 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80" alt="Паста с овощами" loading="lazy"><h3>Боул с киноа</h3><p>Киноа, яйцо, авокадо и овощи</p><span class="mini-price">520 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=800&q=80" alt="Горячая лепёшка с начинкой" loading="lazy"><h3>Драники со сметаной</h3><p>Картофель, сметана и зелёный лук</p><span class="mini-price">380 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="sandwich">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=800&q=80" alt="Сэндвич на тарелке" loading="lazy"><h3>Круассан с индейкой</h3><p>Индейка, сыр, салат и соус</p><span class="mini-price">420 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80" alt="Тартин с начинкой" loading="lazy"><h3>Тартин с ростбифом</h3><p>Ростбиф, рукола и горчичный соус</p><span class="mini-price">450 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="Подача сэндвича" loading="lazy"><h3>Сэндвич с халуми</h3><p>Халуми, песто и вяленые томаты</p><span class="mini-price">390 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="bread">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="Хлеб на закваске" loading="lazy"><h3>Круассан классический</h3><p>Слоёное тесто и сливочное масло</p><span class="mini-price">180 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80" alt="Румяные круассаны" loading="lazy"><h3>Круассан шоколадный</h3><p>Шоколадная начинка и обсыпка</p><span class="mini-price">220 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80" alt="Сладкая выпечка" loading="lazy"><h3>Пончик с лаймом</h3><p>Лаймовый крем и цедра</p><span class="mini-price">200 ₽</span></article>
+          </div>
+          <div class="menu-panel" data-panel="drinks">
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=800&q=80" alt="Чашка кофе" loading="lazy"><h3>Лавандовый раф</h3><p>Эспрессо, сливки и лаванда</p><span class="mini-price">320 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=800&q=80" alt="Кофе в кофейне" loading="lazy"><h3>Какао с маршмеллоу</h3><p>Тёмный шоколад и маршмеллоу</p><span class="mini-price">300 ₽</span></article>
+            <article class="mini-dish"><img class="mini-dish-photo" src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80" alt="Чай с лимоном" loading="lazy"><h3>Облепиховый чай</h3><p>Облепиха, мёд и имбирь</p><span class="mini-price">280 ₽</span></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="rules" aria-labelledby="rules-title">
+      <div class="wrap rules-card">
+        <h2 id="rules-title">Правила жизни<br><em>«искателей»</em></h2>
+        <div class="rules-row">
+          <div class="rules-col">
+            <article class="rule-card"><h3>Территория удовольствия</h3><p>Приходите за комфортом и наслаждением.</p></article>
+            <article class="rule-card"><h3>Уважайте соседей</h3><p>Говорите вполголоса, здесь ценят спокойствие.</p></article>
+            <article class="rule-card"><h3>Не спешите</h3><p>Завтраки весь день — время есть.</p></article>
+          </div>
+          <img class="rules-center" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" alt="Интерьер бистро Искатели" loading="lazy">
+          <div class="rules-col">
+            <article class="rule-card"><h3>Улыбайтесь чаще</h3><p>Влюблённым взглядам всегда зелёный свет.</p></article>
+            <article class="rule-card"><h3>Делитесь впечатлениями</h3><p>Отмечайте нас в соцсетях.</p></article>
+            <article class="rule-card"><h3>Берегите дом</h3><p>Интерьеру XIX века нужна ваша бережность.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team" aria-labelledby="team-title">
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow eyebrow-rust">О вас заботятся</p>
+            <h2 id="team-title">Наши люди —<br><em>ваши искатели</em></h2>
+          </div>
+          <p class="section-note">За зал отвечают Татьяна, Юлия, Настя и Максим. За печь — Кирилл, Саша, Влад и шеф-пекарь Дима.</p>
+        </div>
+        <div class="team-row">
+          <div class="team-card"><span class="team-photo"><img src="team-yulia.jpg" alt="Юлия" loading="lazy"></span><strong>Юлия</strong><span>Главный искатель</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-tatyana.jpg" alt="Татьяна" loading="lazy"></span><strong>Татьяна</strong><span>Фея чистоты</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-nastya.jpg" alt="Настя" loading="lazy"></span><strong>Настя</strong><span>Бариста</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-maxim.jpg" alt="Максим" loading="lazy"></span><strong>Максим</strong><span>Управляющий</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-kirill.jpg" alt="Кирилл" loading="lazy"></span><strong>Кирилл</strong><span>Пекарь</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-sasha.jpg" alt="Саша" loading="lazy"></span><strong>Саша</strong><span>Пекарь</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-vlad.jpg" alt="Влад" loading="lazy"></span><strong>Влад</strong><span>Пекарь су-шеф</span></div>
+          <div class="team-card"><span class="team-photo"><img src="team-dima.jpg" alt="Дима" loading="lazy"></span><strong>Дима</strong><span>Шеф-пекарь</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="wrap">
+        <div class="section-head section-head-centered">
+          <p class="eyebrow eyebrow-rust eyebrow-center">Отзывы</p>
+          <h2 id="reviews-title">Настоящие отзывы гостей,<br>которые <em>нам доверяют</em></h2>
+          <p class="drag-hint" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 12H2m0 0 3-3M2 12l3 3M16 12h6m0 0-3-3m3 3-3 3"/></svg>тяните, чтобы листать</p>
+        </div>
+        <div class="reviews-row">
+          <article class="review-card">
+            <h3>Кокосовые сырники — нежность</h3>
+            <p>Очень-очень вкусно позавтракали! Геркулес правильный, подача заслуживает отдельного плюсика, девушки-официантки приветливые…</p>
+            <div class="review-who"><strong>— Дарья Зайцева</strong><a class="review-source" href="https://yandex.ru/maps/org/iskateli/122030519419/reviews/" target="_blank" rel="noreferrer">Яндекс Карты ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Круассаны великолепные</h3>
+            <p>Шли по наводке коренного смолянина. Рекомендация оправдалась: воздушное тесто, начинки в меру, круассаны большие…</p>
+            <div class="review-who"><strong>— Иван С.</strong><a class="review-source" href="https://yandex.ru/maps/org/iskateli/122030519419/reviews/" target="_blank" rel="noreferrer">Яндекс Карты ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Приятное открытие</h3>
+            <p>Нашёл место случайно: приятно удивлён сервисом, выпечкой и атмосферой. Круассан с шоколадом — пять из пяти…</p>
+            <div class="review-who"><strong>— Сергей Ломакин</strong><a class="review-source" href="https://2gis.ru/smolensk/firm/70000001064901265/tab/reviews" target="_blank" rel="noreferrer">2ГИС ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Выпечка волшебная</h3>
+            <p>Пончики и шоколадный круассан довезла в поезде в коробочке — дома наслаждались разнообразием вкусов…</p>
+            <div class="review-who"><strong>— Вера Казимирова</strong><a class="review-source" href="https://2gis.ru/smolensk/firm/70000001064901265/tab/reviews" target="_blank" rel="noreferrer">2ГИС ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Идеальное раннее утро</h3>
+            <p>Идеальное место, чтобы позавтракать рано утром по прибытию. Волшебная выпечка, вкусный кофе и апельсиновый фреш…</p>
+            <div class="review-who"><strong>— Катерина Добровольская</strong><a class="review-source" href="https://yandex.ru/maps/org/iskateli/122030519419/reviews/" target="_blank" rel="noreferrer">Яндекс Карты ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Тартин великолепен</h3>
+            <p>Просто великолепное место! Чудесная выпечка, хлеб тоже пекут. Не удержались — взяли с собой тартин…</p>
+            <div class="review-who"><strong>— Юлия Чертова</strong><a class="review-source" href="https://yandex.ru/maps/org/iskateli/122030519419/reviews/" target="_blank" rel="noreferrer">Яндекс Карты ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Круассан за 120 рублей</h3>
+            <p>Ооочень вкусный круассан за 120 рублей! Нигде таких низких цен за такой уровень не видела…</p>
+            <div class="review-who"><strong>— Алена Галичанина</strong><a class="review-source" href="https://2gis.ru/smolensk/firm/70000001064901265/tab/reviews" target="_blank" rel="noreferrer">2ГИС ↗</a></div>
+          </article>
+          <article class="review-card">
+            <h3>Место атмосферное</h3>
+            <p>Интерьер изящный, персонал доброжелательный. Вкусный кофе, еда. Выпечка — огонь, окна панорамные…</p>
+            <div class="review-who"><strong>— Катя San</strong><a class="review-source" href="https://2gis.ru/smolensk/firm/70000001064901265/tab/reviews" target="_blank" rel="noreferrer">2ГИС ↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit" id="contacts" aria-labelledby="visit-title">
+      <div class="wrap visit-card">
+        <div class="visit-copy">
+          <p class="eyebrow eyebrow-light">Ваш следующий маршрут</p>
+          <h2 id="visit-title">До встречи<br><em>за завтраком?</em></h2>
+          <p>Приходите, когда удобно. А если далеко — доставка каждый день с восьми утра и до шести вечера.</p>
+          <div class="cover-actions">
+            <a class="button button-paper" href="https://yandex.ru/maps/?text=Смоленск%2C%20улица%20Ленина%2C%2010" target="_blank" rel="noreferrer">Построить маршрут <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="https://eda.yandex.ru/r/iskateli?placeSlug=iskateli&amp;shippingType=delivery" target="_blank" rel="noreferrer">Заказать доставку</a>
+          </div>
+        </div>
+        <div class="visit-details">
+          <div class="detail-block"><span class="detail-label">Мы находимся</span><strong>Смоленск, ул. Ленина, 10</strong></div>
+          <div class="detail-block"><span class="detail-label">Открыты каждый день</span><strong>08:00 — 21:00</strong></div>
+          <div class="detail-block"><span class="detail-label">Можно позвонить</span><a href="tel:+79963466063">+7 (996) 346-60-63</a></div>
+          <div class="detail-block"><span class="detail-label">И написать</span><a href="mailto:bistro.iskateli@yandex.ru">bistro.iskateli@yandex.ru</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-main">
+      <a class="pill-logo footer-brand" href="#top" aria-label="Искатели — наверх">
+        <img class="footer-logo-img" src="logo.svg" alt="Искатели — бистро">
+      </a>
+      <div class="footer-contact">
+        <a class="footer-phone" href="tel:+79963466063">+7 (996) 346-60-63</a>
+        <a class="footer-mail" href="mailto:bistro.iskateli@yandex.ru">bistro.iskateli@yandex.ru</a>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <div class="footer-col"><span class="footer-label">Соцсети</span><div class="footer-links"><a href="https://vk.com/iskateli_bistro" target="_blank" rel="noreferrer">ВКонтакте</a><a href="https://t.me/bistro_iskateli" target="_blank" rel="noreferrer">Telegram</a></div></div>
+      <div class="footer-col"><span class="footer-label">Навигация</span><div class="footer-links"><a href="#numbers">Место</a><a href="#bake">Пекарня</a><a href="#menu">Меню</a><a href="#team">Команда</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></div></div>
+      <div class="footer-col"><span class="footer-label">Инфо</span><div class="footer-links"><a href="https://iskateli-bistro.tilda.ws/policy" target="_blank" rel="noreferrer">Политика конфиденциальности</a></div></div>
+    </div>
+  </footer>
+  <script>
+  (function () {
+    var chips = document.querySelectorAll('.menu-chip');
+    var panels = document.querySelectorAll('.menu-panel');
+    chips.forEach(function (chip) {
+      chip.addEventListener('click', function () {
+        chips.forEach(function (c) { c.classList.remove('is-active'); });
+        chip.classList.add('is-active');
+        panels.forEach(function (p) {
+          p.classList.toggle('is-active', p.getAttribute('data-panel') === chip.getAttribute('data-cat'));
+        });
+      });
+    });
+    var track = document.querySelector('.reviews-row');
+    if (track) {
+      var down = false, startX = 0, startScroll = 0;
+      track.addEventListener('pointerdown', function (e) {
+        down = true; startX = e.clientX; startScroll = track.scrollLeft;
+        track.classList.add('dragging');
+        track.setPointerCapture(e.pointerId);
+      });
+      track.addEventListener('pointermove', function (e) {
+        if (!down) return;
+        track.scrollLeft = startScroll - (e.clientX - startX);
+      });
+      ['pointerup', 'pointercancel', 'pointerleave'].forEach(function (ev) {
+        track.addEventListener(ev, function () { down = false; track.classList.remove('dragging'); });
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
+
